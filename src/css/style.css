@@ -1,0 +1,47 @@
+.container-grid {
+    display: grid;
+    width: 85%;
+    grid-template-areas:  "header header header"
+                        "img img  news"
+                        "heading text news"
+                        "retro laptops gaming";
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    grid-template-rows: 150px 1fr 250px 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.container-grid > .header {
+    grid: header;
+
+}
+
+.img {
+    grid: img;
+}
+
+.news {
+    grid: news;
+}
+
+.retro {
+    grid: retro;
+}
+
+.laptops {
+    grid: laptops;
+}
+
+.gaming {
+    grid: gaming;
+}
+
+
+.attribution {
+     font-size: 11px; text-align: center;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
