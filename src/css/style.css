@@ -7,13 +7,21 @@ html, body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    width: 85%;
+    grid-template-columns: 25% 25% 25%;
     grid-template-rows: 15vh 60vh 20vh 5vh;
     grid-gap: 20px;
 }
 
+.container header main footer {
+    justify-content: center;
+    align-content: center;
+}
+
+
 header {
     display: flex;
+    flex-direction: row;
     background-color:chartreuse;
     grid-column-start: 1;
     grid-column-end: 6;
@@ -38,8 +46,7 @@ aside {
 
 }
 
-footer {
-    display: flex;
+footer {  
     background-color:blueviolet;
     grid-column-start: 1;
     grid-column-end: 6;
