@@ -11,42 +11,14 @@ html, body {
     grid-template-columns: 25% 25% 25%;
     grid-template-rows: 15vh 60vh 20vh 5vh;    
     grid-gap: 20px;
-}
-
-.container .header {
-    align-items: center;
-    background: #f9f9f9;
-    display: flex;
-    justify-content: left;
-}
-
-.container header ul {
-    display: flex;    
-}
-
-.container header ul li {
-    list-style: none;    
-}
-
-.container header ul li a {
-    color: #808080;
-    margin-right: 1.25rem;
-    text-decoration: none;
-    text-transform: lowercase;
-}
-
-.container header ul li a.ativo {
-    color:hsl(228, 45%, 44%);
-    font-weight: bold;
+    justify-content: center;
 }
 
 
-.container header {
-    display: flex;
-    flex-direction: row;
-    background-color:chartreuse;
+.container header {    
     grid-column-start: 1;
     grid-column-end: 6;
+    justify-items: end;
 }
 
 main {

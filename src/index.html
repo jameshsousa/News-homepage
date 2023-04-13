@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-lista.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-item.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-link.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     
     <title>Frontend Mentor | News homepage</title>
 
@@ -13,18 +19,19 @@
   
   <div class="container">  
 
-    <header>
-      <div class="header">
+    <header class="cabecalho">      
         
         <h1>W.</h1>
-        <ul>
-          <li><a class="ativo" href="#">Home</a></li>
-          <li><a href="#">New</a></li>
-          <li><a href="#">Popular</a></li>
-          <li><a href="#">Trending</a></li>
-          <li><a href="#">Categories</a></li>
-        </ol>
-      </div>
+        <nav class="menu">
+        <ul class="menu-lista">
+          <li class="menu-item"><a class="menu-link ativo" href="#">Home</a></li>
+          <li class="menu-item"><a class="menu-link" href="#">New</a></li>
+          <li class="menu-item"><a class="menu-link" href="#">Popular</a></li>
+          <li class="menu-item"><a class="menu-link" href="#">Trending</a></li>
+          <li class="menu-item"><a class="menu-link" href="#">Categories</a></li>
+        </ul>
+        </nav>
+    
     </header>
 
     <main>
