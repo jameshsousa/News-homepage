@@ -3,6 +3,9 @@
     background: #f9f9f9;
     display: flex;
     justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 2rem;
+}
+
+.cabecalho h1 {
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
 }
